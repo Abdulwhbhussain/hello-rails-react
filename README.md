@@ -33,7 +33,7 @@ For more information on the importance of a professional README for your reposit
   <img src="wahab_icon.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Budget app</b></h3>
+  <h3><b>Hello world React Rails app</b></h3>
 
 </div>
 
@@ -42,12 +42,11 @@ For more information on the importance of a professional README for your reposit
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Ruby on Rails capstone project - Budget app ](#-ruby-on-rails-capstone-project---budget-app-)
+- [📖 Ruby on Rails - Hello world React Rails app ](#-ruby-on-rails---hello-world-react-rails-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
+  - [� Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
@@ -63,13 +62,20 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Ruby on Rails capstone project - Budget app <a name="about-project"></a>
+# 📖 Ruby on Rails - Hello world React Rails app <a name="about-project"></a>
 
-The Ruby on Rails capstone project (remember what they are?) is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+Set up a "Hello world" project as one app with Webpack. By now you've used many different gems with Rails and this exercise will have you connect previous knowledge with new knowledge as you get a chance to use Webpack with jsbundling-rails gem.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Frontend</summary>
+  <ul>
+    <li><a href="https://react.dev/">React</a></li>
+  </ul>
+</details>
 
 <details>
   <summary>Server</summary>
@@ -89,21 +95,9 @@ The Ruby on Rails capstone project (remember what they are?) is about building a
 
 ### Key Features <a name="key-features"></a>
 
-- Create a new category
-- Create a new transaction
-- View all categories
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://google.com)
-> Note: The Live Demo link is not available. As, I have checkout all free hosting services and they are not working with Ruby on Rails. Kindly, Make sure to run the project locally. Ex Code Reviewer said that if you're not able to host the project then you can submit it without the live demo link.
-
-
-- [Presentation Video](https://www.loom.com/share/71a4da4078f749f48eeac35f9ac66bb1?sid=f226a93b-9c55-45b6-83e8-27be9669f0ec)
+- Display Greetings message
+- Display random greeting
+- Display random greeting with name
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,11 +118,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-`git clone https://github.com/Abdulwhbhussain/Budget-app.git`
+`git clone https://github.com/Abdulwhbhussain/hello-rails-react.git`
 
 then
 
-`cd Budget-app`
+`cd hello-rails-react`
 
 ### Install
 
@@ -167,9 +161,9 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Delete Category
-- [ ] Delete Transaction
-- [ ] Edit Category
+- [ ] N/A
+- [ ] N/A
+- [ ] N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,8 +192,6 @@ If you like this project then please give a ⭐️ and also share your feedback 
 I would like to thank Microverse for this amazing opportunity and the code reviewers for their insightful feedback. And also my family and friends for their support.
 
 I would like to acknowledge ❤️ [RoR Documentation](https://guides.rubyonrails.org)
-❤️ Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)
-❤️ [Creative Licence](https://creativecommons.org/wp-content/themes/cc/images/cc.logo.white.svg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
