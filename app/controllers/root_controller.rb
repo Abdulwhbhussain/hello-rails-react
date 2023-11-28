@@ -1,3 +1,7 @@
 class RootController < ApplicationController
-  def index; end
+  def index
+    @greetings = Message.pluck(:greeting)
+    
+    @greeting = @greetings.sample
+  end
 end
