@@ -1,5 +1,16 @@
 Rails.application.routes.draw do
+  get 'root/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+
+  namespace :api do
+    namespace :v1 do
+      resources :greetings, only: [:index], defaults: { format: 'json' } do
+        collection do
+          get :random_greeting
+        end
+      end
+    end
+  end
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
   # Can be used by load balancers and uptime monitors to verify that the app is live.
@@ -7,5 +18,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
 
-  root to: "messages#show"
+  root "root#index"
 end
